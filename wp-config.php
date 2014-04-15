@@ -19,13 +19,13 @@
 define('DB_NAME', 'db174223_kendahlskitchen');
 
 /** MySQL database username */
-define('DB_USER', 'db174223');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'C6yzETw22s');
+define('DB_PASSWORD', 'yhu4etuq');
 
 /** MySQL hostname */
-define('DB_HOST', 'external-db.s174223.gridserver.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

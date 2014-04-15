@@ -23,13 +23,10 @@ video {
 html {
   overflow-y: scroll;
   /* 1 */
-
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /* 2 */
-
   -webkit-text-size-adjust: 100%;
   /* 3 */
-
   -ms-text-size-adjust: 100%;
 }
 body,
@@ -105,14 +102,6 @@ input {
 body {
   text-align: left;
   font-family: sans-serif;
-  font-family: sans-serif;
-  font-family: sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.2;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.2;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.2;
@@ -141,16 +130,6 @@ textarea {
   height: 16px;
   font-size: 12px;
   padding: 5px;
-  -webkit-transition: all 100ms linear;
-  -moz-transition: all 100ms linear;
-  -ms-transition: all 100ms linear;
-  -o-transition: all 100ms linear;
-  transition: all 100ms linear;
-  -webkit-transition: all 100ms linear;
-  -moz-transition: all 100ms linear;
-  -ms-transition: all 100ms linear;
-  -o-transition: all 100ms linear;
-  transition: all 100ms linear;
   -webkit-transition: all 100ms linear;
   -moz-transition: all 100ms linear;
   -ms-transition: all 100ms linear;
@@ -199,16 +178,6 @@ textarea {
 a {
   text-decoration: none;
   color: #f26934;
-  -webkit-transition: color 100ms linear;
-  -moz-transition: color 100ms linear;
-  -ms-transition: color 100ms linear;
-  -o-transition: color 100ms linear;
-  transition: color 100ms linear;
-  -webkit-transition: color 100ms linear;
-  -moz-transition: color 100ms linear;
-  -ms-transition: color 100ms linear;
-  -o-transition: color 100ms linear;
-  transition: color 100ms linear;
   -webkit-transition: color 100ms linear;
   -moz-transition: color 100ms linear;
   -ms-transition: color 100ms linear;
@@ -389,10 +358,8 @@ hr {
 .entry-content .attachment img {
   max-width: 100%;
   /* When images are too wide for containing element, force them to fit. */
-
   height: auto;
   /* Override height to match resized width for correct aspect ratio. */
-
   margin-bottom: 4px;
 }
 .story .alignleft,
@@ -527,10 +494,8 @@ body {
 #wrapper {
   position: relative;
   /* needed for footer positioning*/
-
   margin: 0 auto;
   /* center, not in IE5 */
-
   width: 1144px;
 }
 /* Header
@@ -568,12 +533,6 @@ body {
   position: absolute;
   top: 202px;
   left: 152px;
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
@@ -627,12 +586,6 @@ body {
   -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   position: relative;
   z-index: 1;
   padding: 5px 4px 5px 6px;
@@ -643,12 +596,6 @@ body {
 }
 #recent {
   background: #fff;
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
@@ -678,12 +625,6 @@ body {
 }
 #recent .items .item .image {
   border: 4px solid #fff;
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
@@ -763,18 +704,6 @@ body {
   width: 10px;
 }
 #footer .social ul li a:hover {
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
   -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
   -webkit-opacity: 0.8;
@@ -1030,18 +959,6 @@ body {
   opacity: 0.8;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
 }
 #main {
   float: left;
@@ -1125,12 +1042,6 @@ body {
 }
 .post .image img {
   border: 10px solid #ffffff;
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
@@ -1340,25 +1251,12 @@ body {
   opacity: 0.8;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
 }
 #posts .post .more {
   display: none;
 }
 #sidebar .social {
   background: url(../images/social-bg.png) 50% 0 no-repeat;
-  text-align: center;
   padding-top: 41px;
   height: 68px;
   text-align: center;
@@ -1404,18 +1302,6 @@ body {
   width: 11px;
 }
 #sidebar .social ul li a:hover {
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
   -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
   -webkit-opacity: 0.8;
@@ -1483,18 +1369,6 @@ body {
   -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  transform: rotate(10deg);
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  transform: rotate(10deg);
   -webkit-transform: rotate(10deg);
   -moz-transform: rotate(10deg);
   transform: rotate(10deg);
@@ -1641,7 +1515,6 @@ body {
 }
 #sidebar .filter > div .wrap {
   background: url(../images/sidebar-filter-bg.png) 0 0 repeat-y;
-  width: 251px;
   padding: 0 3px;
   position: absolute;
   top: 3px;
@@ -1716,12 +1589,6 @@ body {
   -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -webkit-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  -moz-box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
-  box-shadow: 0 0 2px 1px rgba(176, 178, 180, 0.58);
   position: relative;
   width: 211px;
   margin-top: 29px;
@@ -1747,28 +1614,6 @@ body {
   opacity: 0;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   filter: alpha(opacity=0);
-  -moz-opacity: 0;
-  -khtml-opacity: 0;
-  -webkit-opacity: 0;
-  opacity: 0;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  filter: alpha(opacity=0);
-  -moz-opacity: 0;
-  -khtml-opacity: 0;
-  -webkit-opacity: 0;
-  opacity: 0;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -ms-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -ms-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
   -ms-transition: opacity 0.2s ease-in-out;
@@ -1776,18 +1621,6 @@ body {
   transition: opacity 0.2s ease-in-out;
 }
 #sidebar .favorite .items .item a:hover {
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  filter: alpha(opacity=100);
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  -webkit-opacity: 1;
-  opacity: 1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  filter: alpha(opacity=100);
   -moz-opacity: 1;
   -khtml-opacity: 1;
   -webkit-opacity: 1;
@@ -1824,18 +1657,6 @@ body {
   display: block;
 }
 #sidebar .move-top:hover {
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -webkit-opacity: 0.8;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
   -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
   -webkit-opacity: 0.8;
@@ -1894,33 +1715,55 @@ body {
   right: 39px;
   text-indent: -9999px;
 }
-@media (min-width: 1200px) {
-  
+/**
+ * About Page
+ */
+body.page-template-about-php #main {
+  margin: 0 0 0 23px;
+  width: 738px;
 }
-@media (max-width: 1200px) {
-  
+body.page-template-about-php .entry-content {
+  overflow: hidden;
 }
-@media (max-width: 600px) {
-  
+body.page-template-about-php .entry-content h2,
+body.page-template-about-php .entry-content p {
+  padding-left: 15px;
 }
-@media (min-width: 980px) {
-  
+body.page-template-about-php .entry-content h2 {
+  border-bottom: 1px dashed #aea59c;
+  padding-bottom: 13px;
+  margin-bottom: 13px;
+  position: relative;
+  color: #422b25;
+  font: 14px 'Futura-Bold', sans-serif;
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
 }
-@media (max-width: 979px) {
-  
+body.page-template-about-php .entry-content h2:after {
+  content: "";
+  border-bottom: 1px dashed #aea59c;
+  bottom: -6px;
+  left: 0;
+  position: absolute;
+  width: 100%;
 }
-@media (max-width: 768px) {
-  
+body.page-template-about-php .entry-content p {
+  max-width: 664px;
+  font-size: 16px;
+  line-height: 30px;
 }
-@media (max-width: 480px) {
-  
+body.page-template-about-php .entry-content p:first-of-type {
+  max-width: 340px;
 }
-@media (max-width: 380px) {
-  
+body.page-template-about-php .entry-content p:nth-of-type(2) {
+  max-width: 354px;
 }
-@media (min-device-width: 320px) and (max-device-width: 480px), (max-width: 480px) {
-  
+body.page-template-about-php .subnav {
+  font-size: 0;
+  text-align: center;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  
+body.page-template-about-php .subnav ul > li {
+  display: inline-block;
+  font: 12px 'Futura-Bold', sans-serif;
+  text-transform: uppercase;
 }

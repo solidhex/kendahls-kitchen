@@ -4,7 +4,7 @@
 @color_green: #9bc377;
 
 body{
-    background: url(../images/bg.png) 0 0 repeat-x #faf9f8;   
+    background: url(../images/bg.png) 0 0 repeat-x #faf9f8;
     font: 14px/22px 'Futura-Book', Arial, Verdana, sans-serif;
     color: #93877b;
 }
@@ -1439,4 +1439,62 @@ body{
         right: 39px;
         text-indent: -9999px;
     }
+}
+
+/**
+ * About Page
+ */
+
+body.page-template-about-php {
+	#main {
+		// maybe we want to style this...
+		margin: 0 0 0 23px;
+		width: 738px;
+	}
+	.entry-content {
+		overflow: hidden;
+		h2, p {
+			padding-left: 15px;
+		}
+		h2 {
+			border-bottom: 1px dashed #aea59c;
+			padding-bottom: 13px;
+			margin-bottom: 13px;
+			position: relative;
+			color: #422b25;
+			font: 14px 'Futura-Bold', sans-serif;
+			letter-spacing: 1.05px;
+			text-transform: uppercase;
+			&:after {
+				content: "";
+				border-bottom: 1px dashed #aea59c;
+				bottom: -6px;
+				left: 0;
+				position: absolute;
+				width: 100%;
+			}
+		}
+		p {
+			max-width: 664px;
+			font-size: 16px;
+			line-height: 30px;
+			&:first-of-type {
+				max-width: 340px;
+			}
+			&:nth-of-type(2) {
+				max-width: 354px;
+			}
+		}
+	}
+	.subnav {
+		font-size: 0;
+		text-align: center;
+		ul {
+			> li {
+				display: inline-block;
+				font: 12px 'Futura-Bold', sans-serif;
+				text-transform: uppercase;
+			}
+		}
+	}
 }

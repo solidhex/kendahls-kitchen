@@ -1765,14 +1765,17 @@ body.page-template-about-php .entry-content p:first-of-type {
   max-width: 340px;
 }
 body.page-template-about-php .entry-content p:nth-of-type(2) {
+  margin-bottom: 16px;
   max-width: 354px;
 }
 body.page-template-about-php .subnav {
+  padding: 82px 0 40px;
   font-size: 0;
   text-align: center;
 }
 body.page-template-about-php .subnav ul > li {
   display: inline-block;
+  padding: 0 60px 0 0;
   font: 12px 'Futura-Bold', sans-serif;
   text-transform: uppercase;
 }

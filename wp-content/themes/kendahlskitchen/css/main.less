@@ -1444,24 +1444,29 @@ body{
 /**
  * About Page
  */
-
 body.page-template-about-php {
 	#main {
-		// maybe we want to style this...
 		margin: 0 0 0 23px;
+		position: relative;
 		width: 738px;
+	}
+	.bio {
+		position: absolute;
+		top: -5px;
+		right: 1px;
+		z-index: 50;
 	}
 	.entry-content {
 		overflow: hidden;
+		color: #422b25;
 		h2, p {
 			padding-left: 15px;
 		}
 		h2 {
 			border-bottom: 1px dashed #aea59c;
 			padding-bottom: 13px;
-			margin-bottom: 13px;
+			margin-bottom: 15px;
 			position: relative;
-			color: #422b25;
 			font: 14px 'Futura-Bold', sans-serif;
 			letter-spacing: 1.05px;
 			text-transform: uppercase;
@@ -1475,10 +1480,12 @@ body.page-template-about-php {
 			}
 		}
 		p {
+			margin-bottom: 0;
 			max-width: 664px;
 			font-size: 16px;
 			line-height: 30px;
 			&:first-of-type {
+				margin-bottom: 46px;
 				max-width: 340px;
 			}
 			&:nth-of-type(2) {

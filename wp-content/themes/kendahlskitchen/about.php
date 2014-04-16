@@ -6,7 +6,8 @@
 
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	 <div class="entry-content"><?php the_content();?></div>
+	<img src="<?php bloginfo('template_directory'); ?>/images/bio-pic.png" width="362" height="509" alt="Kendahl" class="bio">
+	<div class="entry-content"><?php the_content();?></div>
 <?php endwhile; else: ?>
 	<?php flo_part('notfound')?>
 <?php endif; ?>

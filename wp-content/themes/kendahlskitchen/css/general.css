@@ -1720,10 +1720,18 @@ body {
  */
 body.page-template-about-php #main {
   margin: 0 0 0 23px;
+  position: relative;
   width: 738px;
+}
+body.page-template-about-php .bio {
+  position: absolute;
+  top: -5px;
+  right: 1px;
+  z-index: 50;
 }
 body.page-template-about-php .entry-content {
   overflow: hidden;
+  color: #422b25;
 }
 body.page-template-about-php .entry-content h2,
 body.page-template-about-php .entry-content p {
@@ -1732,9 +1740,8 @@ body.page-template-about-php .entry-content p {
 body.page-template-about-php .entry-content h2 {
   border-bottom: 1px dashed #aea59c;
   padding-bottom: 13px;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
   position: relative;
-  color: #422b25;
   font: 14px 'Futura-Bold', sans-serif;
   letter-spacing: 1.05px;
   text-transform: uppercase;
@@ -1748,11 +1755,13 @@ body.page-template-about-php .entry-content h2:after {
   width: 100%;
 }
 body.page-template-about-php .entry-content p {
+  margin-bottom: 0;
   max-width: 664px;
   font-size: 16px;
   line-height: 30px;
 }
 body.page-template-about-php .entry-content p:first-of-type {
+  margin-bottom: 46px;
   max-width: 340px;
 }
 body.page-template-about-php .entry-content p:nth-of-type(2) {

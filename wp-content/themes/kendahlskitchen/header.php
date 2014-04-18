@@ -26,6 +26,9 @@
                 ?>
             </nav>
         </header>
+		<?php if (!is_front_page()): ?>
+			
         <div id="content" role="main">
             <div class="content-wrapper cf">
                 <div id="main">
+		<?php endif; ?>

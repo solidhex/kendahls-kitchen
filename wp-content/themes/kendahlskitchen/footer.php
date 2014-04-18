@@ -1,8 +1,11 @@
-                </div>
-                <?php get_sidebar(is_page() || is_404() ? 'short' : '')?>
-            </div>
-        </div><!-- /#content -->
-       <?php if (!is_page('about')): ?>
+        <?php if (!is_front_page()): ?>
+			        </div>
+	                <?php get_sidebar(is_page() || is_404() ? 'short' : '')?>
+	            </div>
+	        </div><!-- /#content -->
+        <?php endif ?>
+		
+       <?php if (!is_front_page() && !is_page('about')): ?>
         <div id="recent">
             <h2>More From The Kitchen</h2>
             <?php 

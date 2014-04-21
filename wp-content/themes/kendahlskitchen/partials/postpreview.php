@@ -5,7 +5,7 @@
         <?php if(!is_single()):?></a><?php endif;?>
     </h1>
     <div class="entry-meta">
-        <time pubdate="<?php the_time('c'); ?>"><?php echo get_the_date('d');?><span><?php echo get_the_date('M');?></span></time>
+        <time pubdate="<?php the_time('c'); ?>"></time>
         <?php echo flo_get_post_first_category_link();?>
     </div>
 </header>

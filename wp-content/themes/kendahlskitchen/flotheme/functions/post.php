@@ -42,6 +42,7 @@ function flo_get_recent_posts($num=3)
 
 function flo_get_favorite_post($num = -1) {
     $query = new WP_Query('post_type=post&meta_key=featured&meta_value=on&posts_per_page='.$num);
+    
     $entries = array();
     while ($query->have_posts()) : $query->the_post();
         $entry = array(

@@ -1,0 +1,96 @@
+.hero {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 36px;
+	}
+	
+	.hero-carousel {
+		opacity: 0;
+	}
+	
+	.hero-carousel article {
+		width: 809px;
+		margin: 0 auto 0 16px;
+		height: 554px;
+		display: block;
+		float: left;
+		position: relative;
+		}
+				
+	.hero-carousel-container {
+/*		padding: 4px 0;*/
+	}
+	
+	.hero-carousel-container article {
+		float: left;
+		}
+	
+		.hero-carousel article img{
+			border: 10px solid #fff;
+			box-shadow: 0 0 4px rgba(88,88,88,.25);
+			position: absolute;
+			top: 4px;
+			left: 0;
+			z-index: 1;
+			}
+			
+		.hero-carousel article .contents {
+			position: relative;
+			z-index: 2;
+			top: 72px;
+			left: 48px;
+			list-style: none;
+			color: #000;
+			width: 556px;
+			padding: 20px;
+			
+			background: rgba(255,255,255,0.8);
+			-pie-background: rgba(255,255,255,0.8);
+			
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			border-radius: 20px;
+			
+			behavior: url(/assets/PIE.htc);
+			}
+	
+		.hero-carousel-nav {
+	
+			}
+			
+			.hero-carousel-nav li {
+				position: absolute;
+				top: 50%;
+				margin-top: -16px;
+				width: 22px;
+				height: 32px;	
+				background-image: url('../images/arrows.png');
+				z-index: 1002;
+				}
+				
+			.hero-carousel-nav li.prev {
+				left: 5%;
+				background-position: 0 -32px;
+				}
+			.hero-carousel-nav li.next {
+				right: 5%;
+				background-position: 0 0;
+				}	
+				
+			.hero-carousel-nav li a {
+				width: 100%;
+				height: 100%;
+				display: block;
+				text-indent: -9999em;
+				}
+			
+			.hero-carousel-nav li a:hover { 
+/*				background: #89051C;*/
+				}
+				
+			.hero-carousel-nav li a:active,
+			.hero-carousel-nav li a:focus { 
+				border: none;
+				outline: none;
+				}

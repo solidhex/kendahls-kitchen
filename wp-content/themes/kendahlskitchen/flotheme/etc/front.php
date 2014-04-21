@@ -62,6 +62,9 @@ function flo_enqueue_styles() {
 	// add general css file
 	wp_register_style( 'flotheme_general_css', THEME_URL . '/css/general.css', array(), FLOTHEME_THEME_VERSION, 'all');
 	wp_enqueue_style('flotheme_general_css');
+	wp_register_style( 'flotheme_general_css', THEME_URL . '/css/general.css', array(), FLOTHEME_THEME_VERSION, 'all');
+	wp_register_style( 'hero_slider', THEME_URL . '/css/jquery.heroCarousel.css');
+	wp_enqueue_style('hero_slider');
 }
 add_action( 'wp_enqueue_scripts', 'flo_enqueue_styles' );
 
@@ -83,6 +86,8 @@ function flo_enqueue_scripts() {
 	wp_register_script( 'html5-shim', 'http://html5shim.googlecode.com/svn/trunk/html5.js', array( 'jquery' ), FLOTHEME_THEME_VERSION, false );
 	// add modernizr
 	wp_register_script( 'flo_modernizr', THEME_URL . '/js/libs/modernizr-2.5.3.min.js', array( 'jquery' ), FLOTHEME_THEME_VERSION, false );
+	// add here slider
+	wp_register_script( 'hero_slider', THEME_URL . '/js/libs/jquery.heroCarousel.min.js', array( 'jquery' ) );
 	
 	if (FLOTHEME_MODE == 'production') {
 		wp_register_script( 'flo_plugins', THEME_URL . '/js/plugins.min.js', array( 'jquery' ), FLOTHEME_THEME_VERSION, false );
@@ -94,6 +99,7 @@ function flo_enqueue_scripts() {
 	
         wp_enqueue_script('pinterest', get_template_directory_uri() . '/js/pinterest.js', array(), FLOTHEME_THEME_VERSION);
         
+	wp_enqueue_script( 'hero_slider' );
 	wp_enqueue_script( 'jquery-form' );
 	wp_enqueue_script( 'flo_modernizr' );
 	wp_enqueue_script( 'html5-shim' );

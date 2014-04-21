@@ -525,8 +525,8 @@ body {
 }
 #menu {
   background: #fff;
-  font: 13px/1 'Futura-Book';
-  letter-spacing: 1px;
+  font: 12px/1 'Futura-Book';
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   text-align: center;
   width: 840px;
@@ -546,7 +546,7 @@ body {
   background: url(../images/menu-separator.png) 0 50% no-repeat;
   float: left;
   padding-left: 25px;
-  margin-left: 21px;
+  margin-left: 18px;
 }
 #menu ul.menu > li:first-child {
   background: none;
@@ -558,7 +558,6 @@ body {
 }
 #menu ul.menu > li a:hover {
   color: #f26934;
-  font-family: 'Futura-Bold';
 }
 #menu ul.menu > li.current-menu-item > a,
 #menu ul.menu > li.current-menu-parent > a {

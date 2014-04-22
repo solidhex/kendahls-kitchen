@@ -56,13 +56,16 @@
 			}
 	
 		.hero-carousel-nav {
-	
+			position: relative;
+			top: 294px;
+			width: 809px;
+			height: 32px;
+			z-index: 1001;
+			margin: 0 auto;
 			}
 			
 			.hero-carousel-nav li {
 				position: absolute;
-				top: 50%;
-				margin-top: -16px;
 				width: 22px;
 				height: 32px;	
 				background-image: url('../images/arrows.png');
@@ -70,11 +73,11 @@
 				}
 				
 			.hero-carousel-nav li.prev {
-				left: 5%;
+				left: -35px;
 				background-position: 0 -32px;
 				}
 			.hero-carousel-nav li.next {
-				right: 5%;
+				right: -103px;
 				background-position: 0 0;
 				}	
 				

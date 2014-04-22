@@ -38,7 +38,7 @@
 						$items = get_posts('post_type=post&meta_key=carousel&posts_per_page=-1');
 						foreach ($items as $item):
 					?>
-						<article>
+						<article class="current">
 							<a href="<?php echo get_permalink($item->ID); ?>">
 								<?php
 									$key = get_post_meta($item->ID, 'carousel-label', true);

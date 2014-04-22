@@ -13,8 +13,8 @@
 <?php endif; ?>
 <nav class="subnav">
 <ul>	
-	<li><a href="#">upcoming events»</a></li>
-	<li><a href="#">hire me for your private event»</a></li>
+	<li><a href="#" class="more-link">upcoming events»</a></li>
+	<li><a href="#" class="more-link">hire me for your private event»</a></li>
 </ul>
 </nav>
 <?php get_footer(); ?>

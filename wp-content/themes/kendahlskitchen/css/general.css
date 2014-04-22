@@ -561,8 +561,7 @@ body {
 }
 #menu ul.menu > li.current-menu-item > a,
 #menu ul.menu > li.current-menu-parent > a {
-  color: #422b25;
-  font-family: 'Futura-Bold';
+  color: #f26934;
 }
 #menu ul.menu > li ul {
   display: none;
@@ -687,7 +686,7 @@ body {
   right: -14px;
 }
 #recent.welcome article {
-  padding: 24px 178px 0 172px;
+  padding: 25px 178px 0 172px;
   background: url(../images/recent-items-bg.png) 0 0 repeat-y;
 }
 #recent.welcome article p {
@@ -702,7 +701,7 @@ body {
 }
 #recent.welcome nav a {
   display: inline-block;
-  margin: 0 58px 0 0;
+  margin: 0 36px 0 0;
   font: 12px 'Futura-Bold';
   text-transform: uppercase;
 }
@@ -1078,6 +1077,12 @@ body {
 }
 /* Blog
 *******************************/
+.more-link {
+  text-transform: uppercase;
+  font-family: 'Futura-Bold';
+  letter-spacing: 1px;
+  font-size: 12px;
+}
 .post {
   margin-top: 90px;
   position: relative;
@@ -1457,6 +1462,7 @@ body {
   margin: 15px 0 4px;
   font-size: 16px;
   font-family: 'Futura-Book';
+  line-height: 22px;
 }
 #sidebar .events .items .item a {
   color: #422b25;
@@ -1661,6 +1667,7 @@ body {
   padding-left: 11px;
   cursor: pointer;
   margin-bottom: 0;
+  letter-spacing: 1px;
 }
 #sidebar .filter h2.active {
   background-position: 100% 100%;
@@ -1686,7 +1693,7 @@ body {
   color: #fff;
 }
 #sidebar .filter ul li a:hover {
-  color: #f26934;
+  color: #422B25;
 }
 #sidebar .favorite {
   background: #f6f6f6;

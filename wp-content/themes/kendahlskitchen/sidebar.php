@@ -31,7 +31,7 @@
         <div class="image"><img src="<?php flo_option('about_image')?>"></div>
         <h2>About Kendahl</h2>
         <div class="text"><?php flo_option('about_text')?></div>
-		<a href="<?php echo get_permalink(277); ?>">READ MORE»</a>
+		<a href="<?php echo get_permalink(277); ?>" class="more-link">READ MORE»</a>
     </div>
     <div class="subscribe">
         <?php echo apply_filters('the_content','[subscribe2 hide="unsubscribe"]'); ?>

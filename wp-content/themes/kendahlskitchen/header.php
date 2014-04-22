@@ -72,6 +72,7 @@
 	
 			$carousel.heroCarousel({
 				css3pieFix: true,
+				easing: "easeOutExpo", 
 				onLoad: function () {
 					$carousel.animate({"opacity" : 1}, 500);
 				},

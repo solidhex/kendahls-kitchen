@@ -154,7 +154,16 @@ body{
 	.hero-carousel-container {
 		article:not(.current) {
 			pointer-events: none;
-			opacity: 0.5;
+			&:before {
+				content: "";
+				position: absolute;
+				z-index: 2;
+				top: 4px;
+				right: 0;
+				bottom: 4px;
+				left: 0;
+				background: transparent url('../images/slider-overlay.png') 0 0 no-repeat;
+			}
 		}
 	}
 	figure {

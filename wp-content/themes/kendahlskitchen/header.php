@@ -38,7 +38,7 @@
 						$items = get_posts('post_type=post&meta_key=carousel&posts_per_page=-1');
 						foreach ($items as $item):
 					?>
-						<article class="current">
+						<article>
 							<a href="<?php echo get_permalink($item->ID); ?>">
 								<?php
 									$key = get_post_meta($item->ID, 'carousel-label', true);
@@ -55,7 +55,7 @@
 											 <p>
 											 	<?php echo $item->post_excerpt; ?>
 											 </p>
-											 <span>READ MORE»</span>
+											 <span class="more-link">READ MORE»</span>
 										  </div>
 										</section>
 									</figcaption>

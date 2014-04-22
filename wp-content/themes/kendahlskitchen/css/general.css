@@ -618,7 +618,7 @@ body {
   right: 0;
   bottom: 4px;
   left: 0;
-  background: transparent url('../images/slider-overlay.png') 0 0 no-repeat;
+  background: transparent url('../images/slider-cover.png') 0 0 no-repeat;
 }
 .hero figure:hover figcaption {
   opacity: 1;

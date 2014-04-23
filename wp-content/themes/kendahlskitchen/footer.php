@@ -14,7 +14,7 @@
             ?>
             <div class="items cf">
                 <?php foreach($recent as $item):?>
-                <div class="item">
+                <div class="item" onclick="window.location.href='<?php echo get_term_link($item)?>'">
                     <div class="image"><a href="<?php echo get_term_link($item)?>"><?php echo wp_get_attachment_image($item->image_id, 'full');?></a></div>
                     <h3><a href="<?php echo get_term_link($item)?>"><?php echo $item->name?></a></h3>
                 </div>

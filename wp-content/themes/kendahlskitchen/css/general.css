@@ -740,9 +740,30 @@ body {
   padding: 47px 0 36px 12px;
 }
 #recent .items .item {
+  position: relative;
   float: left;
   width: 249px;
   margin-left: 32px;
+  cursor: pointer;
+}
+#recent .items .item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 35px;
+  left: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.72);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+#recent .items .item:hover:before {
+  opacity: 1;
 }
 #recent .items .item:first-child {
   margin-left: 0;

@@ -31,6 +31,8 @@
 			box-shadow: 0 0 4px rgba(88,88,88,.25);
 			position: absolute;
 			top: 4px;
+			width: 789px;
+			height: 526px;
 			left: 0;
 			z-index: 1;
 			}
@@ -60,7 +62,7 @@
 			top: 294px;
 			width: 809px;
 			height: 32px;
-			z-index: 1001;
+			z-index: 3;
 			margin: 0 auto;
 			}
 			

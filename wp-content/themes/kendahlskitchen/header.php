@@ -47,7 +47,8 @@
 									<div class="tag"><?php echo $key; ?>»</div>
 								<?php endif ?>
 								<figure>
-									<?php echo get_attached_images($item->ID, "full", null, TRUE); ?>
+									<?php //echo get_attached_images($item->ID, "full", null, TRUE); ?>
+									<img src="<?php echo catch_that_image($item->post_content); ?>">
 									<figcaption>
 										<section>
 										  <div>

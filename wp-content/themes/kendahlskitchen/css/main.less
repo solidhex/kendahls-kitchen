@@ -292,21 +292,30 @@ body{
         padding: 47px 0 36px 12px;
 
         .item{
+			position: relative;
             float: left;
             width: 249px;
             margin-left: 32px;
-			position: relative;
+			cursor: pointer;
 			&:before {
+				content: "";
 				position: absolute;
 				top: 0;
 				right: 0;
-				bottom: 0;
+				bottom: 35px;
 				left: 0;
-				background: teal;
+				z-index: 2;
+				background: rgba(0, 0, 0, 0.72);
 				opacity: 0;
+				.transition(opacity .2s ease-in-out); 
 			}
-			&:hover:before {
-				opacity: 1;
+			&:hover {
+				&:before {
+					opacity: 1;
+				}
+				a {
+					text-decoration: underline;
+				}
 			}
 
             &:first-child{

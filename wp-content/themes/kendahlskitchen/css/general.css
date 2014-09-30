@@ -823,7 +823,7 @@ body {
   margin-left: 0;
 }
 #footer .social ul li a {
-  background: url(../images/footer-social-icons.png) 0 0 no-repeat;
+  background: url(../images/footer-social-icons-929.png) 0 0 no-repeat;
   display: block;
   height: 18px;
   text-indent: -9999px;
@@ -834,18 +834,18 @@ body {
 }
 #footer .social ul li a.instagram {
   background-position: -27px 0;
-  width: 16px;
+  width: 18px;
 }
-#footer .social ul li a.vimeo {
-  background-position: -52px 0;
-  width: 15px;
+#footer .social ul li a.youtube {
+  background-position: -107px 0;
+  width: 18px;
 }
 #footer .social ul li a.tumblr {
-  background-position: -79px 0;
+  background-position: -82px 0;
   width: 16px;
 }
 #footer .social ul li a.twitter {
-  background-position: -104px 0;
+  background-position: -52px 0;
   width: 21px;
 }
 #footer .social ul li a.facebook {

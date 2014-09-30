@@ -88,9 +88,9 @@ function flotheme_get_options() {
 						"id" => "flo_instagram",
 						"std" => "",
 						"type" => "text");
-	$options[] = array( "name" => "Vimeo",
-						"desc" => "Your vimeo profile URL.",
-						"id" => "flo_vimeo",
+	$options[] = array( "name" => "YouTube",
+						"desc" => "Your YouTube profile URL.",
+						"id" => "flo_yt",
 						"std" => "",
 						"type" => "text");
 	$options[] = array( "name" => "Tumblr",

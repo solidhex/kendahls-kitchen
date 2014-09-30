@@ -1430,7 +1430,7 @@ body {
   margin-left: 0;
 }
 #sidebar .social ul li a {
-  background: url(../images/social-icons.png) 0 0 no-repeat;
+  background: url(../images/social-icons-929.png) 0 0 no-repeat;
   display: block;
   height: 20px;
   text-indent: -9999px;
@@ -1443,16 +1443,16 @@ body {
   background-position: -31px 0;
   width: 18px;
 }
-#sidebar .social ul li a.vimeo {
-  background-position: -59px 0;
-  width: 18px;
+#sidebar .social ul li a.youtube {
+  background-position: -119px 0;
+  width: 21px;
 }
 #sidebar .social ul li a.tumblr {
   background-position: -90px 0;
   width: 19px;
 }
 #sidebar .social ul li a.twitter {
-  background-position: -119px 0;
+  background-position: -58px 0;
   width: 23px;
 }
 #sidebar .social ul li a.facebook {
